@@ -1,7 +1,9 @@
+@import "../../assets/styles/Vars.scss";
+
 .header {
     align-items: center;
-    background: #8f57fd;
-    color: white;
+    background: $main-color;
+    color: $white-color;
     display: flex;
     height: 100px;
     justify-content: space-between;
@@ -37,7 +39,7 @@
   }
   
   .header__menu li a {
-    color: white;
+    color: $white-color;
     text-decoration: none;
   }
   

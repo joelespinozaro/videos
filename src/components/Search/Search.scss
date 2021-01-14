@@ -1,3 +1,5 @@
+@import "../../assets/styles/Vars.scss";
+
 .main {
     display: flex;
     align-items: center;
@@ -5,9 +7,9 @@
     flex-direction: column;
     height: 300px;
     border-radius: 0px 0px 40px 40px;
-  }
+}
   
-  .main__title {
-    color: white;
+.main__title {
+    color: $white-color;
     font-size: 25px;
-  }
+}
