@@ -9,7 +9,9 @@ const App = () => (
   <div className="App">
     <Header />
     <Search />
-    <Categories />
+    <Categories title="Mi lista" />
+    <Categories title="Tendencias" />
+    <Categories title="Originales" />
     <Footer />
   </div>
 );
