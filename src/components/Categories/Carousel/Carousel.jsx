@@ -7,7 +7,14 @@ const Carousel = ({ videos }) => (
     <div className="carousel__container">
       {videos &&
         videos.map((video) => (
-          <CarouselItem key={video.id} video={video} />
+          <CarouselItem
+            key={video.id}
+            title={video.title}
+            year={video.year}
+            contentRating={video.contentRating}
+            duration={video.duration}
+            cover={video.cover}
+          />
         ))}
     </div>
   </section>
