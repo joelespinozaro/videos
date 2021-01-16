@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Search from '../components/Search';
-import Header from '../components/Header';
 import Categories from '../components/Categories';
-import Footer from '../components/Footer/Footer';
 import useInitialState from '../hooks/useInitialState';
 
 const API = 'http://localhost:3000/initialState';
