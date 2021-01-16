@@ -1,0 +1,15 @@
+@import "../../assets/styles/Vars.scss";
+
+.notFound{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.notFound h1 {
+  font-weight: 900;
+  font-size: 60px;
+  color: $white-color;
+}
+

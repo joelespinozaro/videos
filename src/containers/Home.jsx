@@ -10,11 +10,12 @@ const API = 'http://localhost:3000/initialState';
 const Home = () => {
   const initialState = useInitialState(API);
 
-  return (
-    <div className="App">
-      <Header />
+  return initialState.length === 0 ? (
+    <h1>Loading...</h1>
+  ) : (
+    <h1>
       <Search />
-      {initialState.mylist && initialState.mylist.length > 0 && (
+      {initialState.mylist.length > 0 && (
         <Categories title="Mi lista" videos={initialState.mylist} />
       )}
       <Categories title="Tendencias" videos={initialState.trends} />
@@ -22,8 +23,7 @@ const Home = () => {
         title="Originales"
         videos={initialState.originals}
       />
-      <Footer />
-    </div>
+    </h1>
   );
 };
 

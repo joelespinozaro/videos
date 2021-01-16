@@ -8,9 +8,13 @@ const Login = () => (
     <section className="login__container">
       <h2>Inicia sesión</h2>
       <form className="login__container--form">
-        <input className="input" type="text" placeholder="Correo" />
         <input
-          className="input"
+          className="login__input"
+          type="text"
+          placeholder="Correo"
+        />
+        <input
+          className="login__input"
           type="password"
           placeholder="Contraseña"
         />
