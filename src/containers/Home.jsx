@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import '../assets/styles/App.scss';
 import Search from '../components/Search';
 import Header from '../components/Header';
 import Categories from '../components/Categories';

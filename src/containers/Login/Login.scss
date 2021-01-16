@@ -1,0 +1,81 @@
+@import "../../assets/styles/Vars.scss";
+
+.login {
+  background: linear-gradient($second-color, $main-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 30px;
+  min-height: calc(100vh - 200px);
+}
+.login__container {
+  background-color: rgba(255,255,255,0.1);
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  color:#ffffff;
+  padding: 40px 68px;
+  min-height: 700px;
+  width:450px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.login__container--form {
+  display:flex;
+  flex-direction: column;
+}
+.login__container--form label {
+  font-size: 14px;
+}
+.login__container--remember-me {
+  color: white;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+.login__container--remember-me a {
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.login__container--remember-me a:hover {
+  text-decoration: underline;
+}
+.login__container--social-media > div {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.login__container--social-media > div > img{
+  width: 30px;
+  margin-right: 10px;
+}
+.login__container--register {
+  font-size: 14px;
+
+}
+.login__container--register a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.login__container--register a:hover {
+  text-decoration: underline;
+}
+.login__container--login{
+  font-size: 14px;
+  display:flex;
+  justify-content: center;
+}
+.login__container--login a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+.login__container--login a:hover {
+  text-decoration: underline;
+}
