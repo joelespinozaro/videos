@@ -2,7 +2,6 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Search from '../components/Search';
 import Categories from '../components/Categories';
-import useInitialState from '../hooks/useInitialState';
 
 const Home = ({ myList, trends, originals }) => {
   return (
