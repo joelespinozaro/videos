@@ -2,17 +2,19 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Search from '../components/Search';
 import Categories from '../components/Categories';
+import Header from '../components/Header';
 
 const Home = ({ myList, trends, originals }) => {
   return (
-    <h1>
+    <>
+      <Header />
       <Search />
       {myList.length > 0 && (
         <Categories title="Mi lista" videos={myList} isList />
       )}
       <Categories title="Tendencias" videos={trends} />
       <Categories title="Originales" videos={originals} />
-    </h1>
+    </>
   );
 };
 
