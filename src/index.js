@@ -22,7 +22,8 @@ const initialState = {
       cover: 'http://dummyimage.com/800x600.png/99118E/ffffff',
       description:
         'Vestibulum ac est lacinia nisi venenatis tristique',
-      source: 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      source:
+        'https://static.videezy.com/system/resources/previews/000/044/479/original/banana.mp4',
     },
     {
       id: 3,
@@ -36,7 +37,8 @@ const initialState = {
       cover: 'http://dummyimage.com/800x600.png/302140/ffffff',
       description:
         'Vestibulum ac est lacinia nisi venenatis tristique',
-      source: 'https://mdstrm.com/video/58333e214ad055d208427db5.mp4',
+      source:
+        'https://static.videezy.com/system/resources/previews/000/044/479/original/banana.mp4',
     },
     {
       id: 4,
