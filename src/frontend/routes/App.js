@@ -5,8 +5,8 @@ import Login from '../containers/Login';
 import Register from '../containers/Register';
 import NotFound from '../containers/NotFound';
 import Player from '../containers/Player';
-import '../assets/styles/App.scss';
 import Layout from '../components/Layout';
+import '../assets/styles/App.scss';
 
 const App = () => (
   <BrowserRouter>
